@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pavank3194.github.io/static/css/main.c85ce4cc.css",
+    "main.js": "/pavank3194.github.io/static/js/main.e4a1e187.js",
+    "static/js/787.d7078d7f.chunk.js": "/pavank3194.github.io/static/js/787.d7078d7f.chunk.js",
+    "index.html": "/pavank3194.github.io/index.html",
+    "main.c85ce4cc.css.map": "/pavank3194.github.io/static/css/main.c85ce4cc.css.map",
+    "main.e4a1e187.js.map": "/pavank3194.github.io/static/js/main.e4a1e187.js.map",
+    "787.d7078d7f.chunk.js.map": "/pavank3194.github.io/static/js/787.d7078d7f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c85ce4cc.css",
+    "static/js/main.e4a1e187.js"
+  ]
+}
