@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter , Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Main from './pages/main';
@@ -7,13 +7,14 @@ import Main from './pages/main';
 const App = () => {
   return (
     <div>
-      <Main/>
-      <BrowserRouter basename='/sample1/'>
-      <Routes>
-      <Route exact path='/sample1/' element={<Home/>}></Route>
-      <Route path='/about' element={<About/>}></Route>
-      </Routes>
-      </BrowserRouter>
+      <Main />
+      <Router>
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/sample1" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </Router>
     </div>
   );
 };
