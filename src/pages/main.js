@@ -3,8 +3,8 @@ import '../index.css'
 function Main() {
   return (
     <div>
-      <a href="/#">Home</a>
-      <a href="/#/about">About</a>
+      <a href="#/sample1/">Home</a>
+      <a href="#/about">About</a>
     </div>
   )
 }
