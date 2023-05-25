@@ -3,7 +3,7 @@ import '../index.css'
 function Main() {
   return (
     <div>
-      <a href="sample1/#">Home</a>
+      <a href="/#">Home</a>
       <a href="sample1/#/about">About</a>
     </div>
   )
